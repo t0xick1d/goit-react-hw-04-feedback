@@ -29,10 +29,6 @@ function App() {
     setTotal(prevState => prevState + 1);
   };
 
-  // const countPositiveFeedbackPercentage = () => {
-
-  // };
-
   return (
     <div className={style.body}>
       <div className={style.component}>
