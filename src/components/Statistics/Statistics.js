@@ -7,8 +7,8 @@ export default function Statistics({
   good,
   neutral,
   bad,
-  total = 0,
-  positivePercentage = 0,
+  total,
+  positivePercentage,
 }) {
   return (
     <>
