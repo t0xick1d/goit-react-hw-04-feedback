@@ -1,0 +1,26 @@
+.list{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0px;
+}
+.item{
+  margin: 5px;
+  border: 1px solid rgb(92, 122, 198);
+  background-color: rgb(92, 122, 198);
+  border-radius: 3px;
+}
+.button{
+  min-width: 100%;
+  min-height: 100%;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 18px;
+  background-color: rgb(92, 122, 198);
+  border: 0px solid rgba(255, 0, 0, 0);
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(184, 204, 255);
+}
